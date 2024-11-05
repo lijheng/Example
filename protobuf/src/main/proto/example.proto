@@ -1,0 +1,13 @@
+syntax = "proto3";
+package com.summer.example.protobuf;
+
+message UserInfo {
+  string userid = 1;
+  string deviceId = 2;
+}
+
+message Policy {
+  bool enable = 1;
+  int32 background = 2;
+  string describe = 3;
+}
